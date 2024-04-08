@@ -17,6 +17,7 @@
 		E443B3CF2BC2D5C1000FD45F /* GPTRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443B3CE2BC2D5C1000FD45F /* GPTRequestDTO.swift */; };
 		E443B3D12BC2D61D000FD45F /* GPTResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443B3D02BC2D61D000FD45F /* GPTResponseDTO.swift */; };
 		E4C79AD52BC409440020E1DB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C79AD42BC409440020E1DB /* NetworkError.swift */; };
+		E4C79AD72BC409810020E1DB /* NetworkProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C79AD62BC409810020E1DB /* NetworkProcess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E443B3CE2BC2D5C1000FD45F /* GPTRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTRequestDTO.swift; sourceTree = "<group>"; };
 		E443B3D02BC2D61D000FD45F /* GPTResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTResponseDTO.swift; sourceTree = "<group>"; };
 		E4C79AD42BC409440020E1DB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E4C79AD62BC409810020E1DB /* NetworkProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProcess.swift; sourceTree = "<group>"; };
 		E52179D60CE3D7892A04A0F7 /* Pods-ChatBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBot.release.xcconfig"; path = "Target Support Files/Pods-ChatBot/Pods-ChatBot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				E443B3CE2BC2D5C1000FD45F /* GPTRequestDTO.swift */,
 				E443B3D02BC2D61D000FD45F /* GPTResponseDTO.swift */,
 				E4C79AD42BC409440020E1DB /* NetworkError.swift */,
+				E4C79AD62BC409810020E1DB /* NetworkProcess.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C79AD72BC409810020E1DB /* NetworkProcess.swift in Sources */,
 				E443B3CF2BC2D5C1000FD45F /* GPTRequestDTO.swift in Sources */,
 				E4C79AD52BC409440020E1DB /* NetworkError.swift in Sources */,
 				1D312FB42BBACF8000169AD3 /* AppDelegate.swift in Sources */,
